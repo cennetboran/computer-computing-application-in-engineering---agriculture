@@ -1,0 +1,135 @@
+.arka{
+    font-family: Arial;
+    font-size: 14px;
+}
+.btn:hover {background-color: #cc0099;}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.baslik{
+
+    margin:50px;
+    color: maroon;
+    font-size: 30px;
+    font-weight: bold;
+}
+.baslik2{
+    color:maroon;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.p{
+    color:rgb(70, 8, 8);
+    font-size: 15px;
+}
+
+.baslik3{
+    color:rgb(138, 54, 54) ;
+    font-weight: 200px;
+}
+.resim{
+    width: 800px;
+    height: auto;
+    box-align: center;
+    
+}
+
+
+div {
+
+
+    border-radius:5px
+ 
+ 
+ }
+
+ img{
+
+
+    height: 100%;
+ 
+ 
+    width: 100%;
+ 
+ 
+ }
+ body {
+    background-image:url('https://i.imgyukle.com/2019/10/22/EByy6H.jpg');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    text-align: justify;
+    margin-left: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    }
+    .liste{
+       margin:50px;
+       color: green;
+
+    }
+    
+      .body {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+      .container-fluid{
+        max-width: 700px;
+        background-color: goldenrod;
+      }
+#personel{
+    width: 100%;
+    font: bold 1.25em "Trebuchet MS", Verdana, Arial, Helvetica,
+    sans-serif;
+    border: 20px solid rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background: rgb(255, 255, 255);
+    border-collapse: collapse;
+    }
+     
+    #personel th{
+    color: rgb(14, 49, 58);
+    padding: 6px 6px 6px 12px;
+     
+    }
+     
+    #personel td{
+    padding: 6px 6px 6px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    }
+    #personel tr{
+    color: rgb(14, 49, 58);
+    background: #fff;
+    }
+    #personel tr:hover{
+    background:#CAE8EA;
+    color:#fff;
+    }
+    .resim2{
+    margin-left:30px;
+    max-width: 800px;
+    height: auto;
+    }
+    .logo{
+        width: 150px;
+        height: 100px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    .yazi{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 35px;
+
+
+    }

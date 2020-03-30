@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+  <title>ONLİNE TARIM BİLGİSİ</title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="js.js"></script>
+  <link href="idex.css" rel="stylesheet"/>
+</head>
+<body class="arka">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-4">
+    <!--<a class="navbar-brand" href="#">Navbar Örnek</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_icerik" >
+      <span class="navbar-toggler-icon"></span>
+    </button>-->
+   
+      <div align="center"class="logo">
+          <a href="#"><img src="banner_1.jpg" alt="logo" style="border-radius: 15px;"></a>
+      </div>
+  
+    <div class="collapse navbar-collapse" id="navbar_icerik">
+      
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Anasayfa<span class="sr-only">(current)</span></a>
+        </li>
+        <!--<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Menü
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tarla Boyut Bilgisi</a>
+            <a class="dropdown-item" href="#">Ekilecek Ürün</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Ayrılmış Alt Menü </a>
+          </div>
+        </li>-->
+        <li class="nav-item">
+          <a class="nav-link" href="#tarla boyut bilgisi" >Tarla Boyut Bilgisi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ekilecek ürün" >Ekilecek Ürün</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#alınması gereken önlemler" >Alınması Gereken Önlemler</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" style="border-color: rgb(226, 198, 43);color:rgb(226, 198, 43);" type="submit">Ara</button>
+      </form>
+    </div>
+  </nav>	
+  <!----
+  <div align="center" class="container">
+    <div align="center"class="logo">
+        <a href="#"><img src="banner_1.jpg" alt="logo"></a>
+    </div>
+    
+<div align="center"class="navbar">
+
+<div align="center" class="icon-bar" onclick="Show()">
+    <i></i>
+    <i></i>
+    <i></i>
+</div>
+
+<ul id="nav-lists">
+    <li class="close"><span onclick="Hide()">×</span></li>
+    <li><a href="#">Anasayfa</a></li>
+    <li><a href="#tarla boyut bilgisi">Tarla Boyut Bilgisi</a></li>
+    <li><a href="#ekilecek ürün">Ekilecek Ürün</a></li>
+    <li><a href="#alınması gereken önlemler">Alınması Gereken Önlemler</a></li>
+</ul>
+
+</div>
+</div> -->
+  <!-- <h1 class="baslik" align="center">
+   online tarım bilgi sistemi
+</h1> -->
+  
+
+  <!-- <div align="center"><img class="resim" src="https://i.imgyukle.com/2019/10/22/Es1xYh.jpg" alt="resim" witdh="900px" height="400px" /></div> -->
+  
+
+
+  <div class="container">
+  <div align="center">
+  <a class="yazi" >Tarım Verimlik Bilgi Sistemi </a>
+  </div>
+
+  <div align="center" style=" width: 930px; height:650px; margin-left:9%; ">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.imgyukle.com/2019/10/22/Es1xYh.jpg" alt="ressim">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.imgyukle.com/2019/10/22/EBozac.jpg" alt="ressim">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.imgyukle.com/2019/10/22/EBktvI.jpg" alt="ressim">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+           
+
+  <div class="container1">
+    <br>
+
+   
+
+    <div class="row" style="background-color: rgb(218, 165,32); border-radius: 15px;">
+  
+
+      <div class="col-md-6" id="tarla boyut bilgisi" style="margin-top: 10px;">
+        <h2 align="center" class="baslik2">
+          Tarla Boyut Bilgisi
+        </h2>
+        <p align="center" class="p">Tarlanızda kullanmanız gereken su miktarını öğrenmek isterseniz lütfen tarlanızın alanını dekar cinsinden giriniz.
+        </p>
+        <div align="center">
+          <div class="form-group" style="width : 150px">
+            <label for="exampleFormControlSelect1">Tarla Bilgisi(Dekar)</label>
+           <input type="number" id="tarladekar" name="tarlabilgisi">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6" id="ekilecek ürün" style="margin-top: 10px;">
+        <h2 align="center" class="baslik2"> Ekilecek Ürün</h2>
+        <p align="center" class="p"> Ekeceginiz ürünün tarlanızın tipine ve boyutuna uygun olması gerekmektedir.</p>
+
+
+
+        <div align="center">
+          <div class="form-group"  style="width : 150px"  >
+            <label for="exampleFormControlSelect1">Ürün bilgisi</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Domates</option>
+              <option>Fasulye</option>
+              <option>Patlıcan</option>
+              <option>Patates</option>
+              <option>Soğan</option>
+              <option>Nohut</option>
+              <option>Karpuz</option>
+              <option>Buğday</option>
+              <option>Arpa</option>
+              <option>Kavun</option>
+              <option>Biber</option>
+              <option>Çilek</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div align="center"><button type="button" onClick="verim()" class="btn btn-warning" style="margin-top: 10px;">Tamam</button>
+    </div>
+  </div>
+  
+</div>
+<p id="bos" >  </p>
+<div class="container-fluid">
+  <p id="result1" style="background-color:rgb(0, 0, 0);text-align:center;font-size: medium;font-weight: bolder;color:rgb(255, 255, 255);font-style: italic;border-radius: 15px; "> </p>
+  <p id="result" >  </p>
+</div>
+<div class="container" style="background-color: rgb(218, 165,32); border-radius: 15px;">
+    <div id="alınması gereken önlemler" style="margin-top: 30px;">
+      <h2 align="center" class="baslik2">
+        Alınması Gereken Önlemler
+      </h2>
+      <center>
+        <p align="center" class="p">Tarlanıza ekeceginiz ürünün sağlıklı ve uzun ömürlü olabilmesi için gerekli
+          ilaçlamalar gübreler kullanmanız gerekmektedir en temel gübreler ve
+          ilaclar sizin icin asagıda sıralanmıstır.
+        </p>
+      </center>
+
+      <h3 class="liste">Domates</h3>
+      <div class="row" style="margin-bottom: 30px;">
+        <div class="col-md-3">
+            <img class="resim2" src="https://i.imgyukle.com/2019/10/22/EBozac.jpg" alt="resim"
+            style="width: 250px; height: 190px;" />        
+        </div>
+        <div class= "col-md-9">
+            <ul>
+                <li>Domates bir ılık ve sıcak iklim sebzesidir. Bol ürün vermesi için nispeten uzun bir yetiştirme devresi ister.</li>
+                <li>Domates toprak yönünden fazla müşkülpesent bir bitki değildir. Kumlu topraklardan hafif killi topraklara kadar hemen 
+                  hemen her toprak tipinde yetiştirilebilir. </li>
+                <li>Uzun bir gelişme periyodu olan domates yetiştiriciliğinde toprağın bitki besin maddeleri yönünden zengin olması gerekir. 
+                    Bunun için 2 tür gübre kullanılabilir. Bunlardan biri ahır gübresi olan ve sadece bitkiyi besleyen gübredir. Diğeri ise ticaret gübresi olan ve hem toprağı hem de bitkiyi besleyen gübredir.
+                </li>
+              </ul>
+        </div>
+      </div>
+
+      <h3 class="liste">Fasulye</h3>
+      <div class="row" style="margin-bottom: 30px;">
+          <div class="col-md-3">
+        <img class="resim2" src="https://i.imgyukle.com/2019/10/28/EKjHUe.jpg" alt="resim"
+          style="width: 250px; height: 190px;" />
+          </div>
+        <div class="col-md-9">
+            <ul>
+                <li>Nisan ve Mayıs ayları fasulye ekimi yapmak için doğru zamandır. Fasulye tohumlarını havanın iyi olduğu bir günde ekin, 
+                  çünkü tohumları ektiğiniz toprağın ısısı önemlidir. Soğuk toprağa yapılan ekimde yeterli ürün alamazsınız.
+                </li>
+                <li>Fasulye çimlenme aşamasında suya az ihtiyaç duyar. Çiçek açınca ve hasat zamanında ise hafif ama sık sulama yapın.
+                    Sularken yaprak ve çiçeklerine su değmemesine özen gösterin.
+                    Fasulye bir çapa bitkisidir. İlk çimlenme başladıktan 15 gün sonra çapalanması gerekir.
+                </li>
+                <li>
+                    En uygun toprak olarak kabul edilen kumlu-tınlı topraklara birkaç senede bir dekara 2-3 ton olmak üzere yanmış çiftlik gübresi verilir. 
+                    Dekara 2-5 kg saf azot (N), 4-6 kg fosfor (P2O5) ve 3-5 kg potasyum (K2O) verilmelidir. Çimlenmekte olan tohumlara herhangi 
+                    bir ticari gübrenin zararının dokunmaması için gübrelerin tohumların ekildiği yerin en az 5cm kadar uzağında ve 7..5 cm derinlikte verilmesi uygundur.
+                </li>
+              </ul>
+        </div>
+          
+      </div>
+
+      <h3 class="liste">Patlıcan</h3>
+      <div class="row" style="margin-bottom: 30px;">
+          <div class="col-md-3">
+        <img class="resim2" src="https://i.imgyukle.com/2019/10/28/EKjzzn.jpg" alt="resim"
+          style="width: 250px; height: 190px;" />
+          </div>
+        <div class="col-md-9">
+            <ul>
+                <li>
+                  Patlıcan sıcak iklim sebzesidir. Güneşli havaları çok sever. Sıcaklık 0 derecenin altına düşünce ölür.
+                </li>
+                <li>
+                    Patlıcan tohumlarını ilkbaharın başında saksılara ekin. Oda sıcaklığında, ortalama 10 günde çimlenir.
+                    Tohumlar çimlenince kazık kök oluşur. Kazık kök büyümeye başlayınca da yan kökler gelişir. Çimlendikten sonra saksıyı 
+                    serin ve aydınlık bir yere koyun. 2 ay sonra fideler bahçeye ekilebilecek hale gelir.
+                </li>
+                <li>
+                    Patlıcanlar gübreyi çok sever. Patlıcan yetiştirilecek toprağın dikimden önce dekara 4-6 ton hesabı ile iyi vasıflı, yanmış ahır gübresi ve 
+                    yardımcı olarak dekara fosforlu ve azotlu gübrenin yarısı dikim esnasında, azotlu gübrenin ikinci 
+                    yarısı ise ilk sulamadan önce verilmelidir. Azotlu gübre olarak 21 kg/da N, Fosforlu gübre 10 kg/da P2O5 saf olarak verilmelidir.
+                </li>
+              </ul>
+        </div>
+          
+      </div>
+
+
+      <h3 class="liste">Biber</h3>
+      <div class="row" style="margin-bottom: 30px;">
+          <div class="col-md-3">
+        <img class="resim2" src="https://i.imgyukle.com/2019/10/28/EKjenH.jpg" alt="resim"
+          style="width: 250px; height: 190px;" />
+          </div>
+        <div class="col-md-9">
+            <ul>
+                <li>
+                  Biber sıcağı seven bitkiler grubundandır. Optimal gelişme; sıcaklık, kısmen ışık yoğunluğu, toprak ve hava nemi gibi çevre faktörlerine bağlıdır.
+                </li>
+                <li>
+                  Organik maddece zengin, çeşitli besin maddelerini içeren, tınlı, tınlı-kumlu, su tutma kapasitesi iyi, çabuk ısınılabilir, derin, geçirgen, iyi drene 
+                    edilmiş topraklar biber için uygundur.
+                </li>
+                <li>
+                    Biber yetiştirilecek toprağa toprak hazırlığı sırasında 3 ton/da yanmış ahır gübresi verilir. Dikimle birlikte fosforlu gübrenin tamamı, 
+                    azotlu gübrenin yarısı uygulanır. Azotlu gübrenin diğer yarısı ise ilk sulamadan önce verilmelidir. 
+                    Azotlu gübre 15 kg/da N, fosforlu gübre olarak 10 kg/da P2O5 saf olarak verilmelidir.
+                </li>
+              </ul>
+        </div>
+          
+      </div>
+
+      <h3 class="liste">Çilek</h3>
+      <div class="row" style="margin-bottom: 30px;">
+          <div class="col-md-3">
+        <img class="resim2" src="https://i.imgyukle.com/2019/10/22/EBktvI.jpg" alt="resim"
+          style="width: 250px; height: 190px; margin-bottom: 20px;" />
+          </div>
+        <div class="col-md-9">
+            <ul>
+                <li>Çilek -10C’ye kadar özel bir önlem almadan yetiştirilebilir. Daha soğuk bölgelerde bitkilerin üzerine saman, kuru yaprak vs. gibi materyaller 
+                  örtülerek dondan korunması gerekir. 
+                  İlkbaharın geç donları sorun olsa bile çilekte çiçeklenme uzun bir döneme dağıldığı için don ürünün tümüne zarar vermez.
+                </li>
+                <li>
+                    Çilek genel olarak derin,iyi drene edilmiş nem tutma kapasitesi yüksek topraklarda iyi gelişir ve bol ürün verir, en iyi toprak kumlu-killi
+                     milli ve süzek topraklardır. Alüvyal humuslu tınlı topraklarda da iyi gelişir. Kireçli toprakları sevmez, asit toprak ister. PH 6.5 dan az olmalıdır.
+                </li>
+                <li>
+                    Çilek yetiştiriciliğinde dekara 3-4 ton çiftlik gübresi verilmelidir. Çiftlik gübresinin verilme zamanı bölge şartlarına göre değişir. 
+                    Genel olarak dikim öncesinde toprak hazırlığı sırasında (veya fide dikiminden bir ay önce) verilir.
+                </li>
+              </ul>
+        </div>
+          
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300" rel="stylesheet">
+    <table id="personel" style="margin-bottom: 10px;">
+      <tr>
+        <th>Ürün İsmi</th>
+        <th>Yetiştiği iklim</th>
+        <th>Toprak tipi</th>
+        <th>Yetiştiği Bölge</th>
+      </tr>
+      <tr>
+        <td>Çilek</td>
+        <td>yaz-sonbahar-kış</td>
+        <td>kumlu-tınlı, killi ve süzek topraklarda </td>
+        <td>Marmara-akdeniz-Ege</td>
+      </tr>
+      <tr>
+        <td>Biber</td>
+        <td>Sonbahar-Kış</td>
+        <td>Kumlu-tınlı topraklarda</td>
+        <td>Akdeniz-Ege-Marmara</td>
+      </tr>
+      <tr>
+        <td>Patlıcan</td>
+        <td>İlkbahar-yaz</td>
+        <td>tınlı-kumlu topraklarda</td>
+        <td>Akdeniz</td>
+      </tr>
+      <tr>
+        <td>Fasulye</td>
+        <td>İlkbahar-yaz</td>
+        <td>Kumlu-tınlı topraklarda</td>
+        <td>Karadeniz-Akdeniz-İç Anadolu</td>
+      </tr>
+      <tr>
+        <td>Domates</td>
+        <td>İlkbahar-yaz</td>
+        <td>kumlu-killi-tınlı topraklarda</td>
+        <td>Marmara-akdeniz-Ege</td>
+      </tr>
+
+    </table>
+
+  </div>
+
+  <center>
+    <a href="https://www.tarimorman.gov.tr/">
+      <img src="Gıda,_Tarım_ve_Hayvancılık_Bakanlığı.png" style="width: 50px; height: 50px; margin-bottom: 20px;">
+    </a>
+  </center>
+
+</div>
+
+
+
+  <script src="functions.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="idex.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
